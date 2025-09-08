@@ -1,0 +1,4 @@
+venv/
+model_*
+dataset.json
+generator_data/
