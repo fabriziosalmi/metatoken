@@ -112,7 +112,7 @@ La nostra classe custom `MetaModel` orchestra l'interazione tra il modello base 
 > |---|---|---|
 > | Certamente | BOT_RISPOSTA | AFFERMAZIONE |
 > | . | BOT_RISPOSTA | PUNCT |
-| Analizzo | BOT_RAGIONAMENTO| ANALISI_RICHIESTA|
+> | Analizzo | BOT_RAGIONAMENTO| ANALISI_RICHIESTA|
 > | la | BOT_RAGIONAMENTO | ARTICOLO |
 > | richiesta | BOT_RAGIONAMENTO | SOSTANTIVO_ASTRATTO|
 > | . | BOT_RAGIONAMENTO | PUNCT |
@@ -145,3 +145,26 @@ Questo progetto è stato un viaggio attraverso le sfide più comuni e avanzate d
 4.  **Sperimentare con il Controllo in Generazione:** Implementare una logica che permetta all'utente di "forzare" un certo ruolo (`BOT_RAGIONAMENTO`) durante la generazione per guidare attivamente la risposta del modello.
 
 Questo progetto, nato da un'idea "bizzarra", ha dimostrato con successo che è possibile creare modelli di linguaggio più strutturati, interpretabili e controllabili, aprendo la strada a future e affascinanti sperimentazioni.
+
+---
+
+## Documentazione Aggiuntiva
+
+- **[SETUP.md](SETUP.md)**: Guida completa all'installazione e configurazione del progetto
+- **[QUICKSTART.md](QUICKSTART.md)**: Guida rapida per iniziare subito con il progetto
+- **[requirements.txt](requirements.txt)**: Dipendenze Python necessarie
+
+## Come Iniziare
+
+```bash
+# Installa le dipendenze
+pip install -r requirements.txt
+
+# Genera un dataset di training
+python crea_dataset.py --num-esempi 1000
+
+# Allena il modello
+python minimal_9.py
+```
+
+Per maggiori dettagli, consulta la [guida di setup](SETUP.md).

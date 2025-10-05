@@ -1,0 +1,53 @@
+{
+  "DYNAMIC_SCIENTIFIC_FACT": [
+    "Un buco nero è una regione dello spazio-tempo con un campo gravitazionale così intenso che nulla può sfuggire, nemmeno la luce",
+    "La teoria della relatività generale di Einstein descrive la gravità come una curvatura dello spazio-tempo causata dalla massa e dall'energia",
+    "La meccanica quantistica studia il comportamento della materia e dell'energia a scale atomiche e subatomiche",
+    "Il bosone di Higgs è una particella elementare che conferisce massa alle altre particelle attraverso il meccanismo di Higgs",
+    "Le onde gravitazionali sono increspature nello spazio-tempo prodotte da eventi cosmici violenti come la fusione di buchi neri",
+    "Il DNA è una molecola che contiene le istruzioni genetiche per lo sviluppo e il funzionamento degli organismi viventi",
+    "L'entropia è una misura del disordine di un sistema termodinamico e tende ad aumentare nel tempo secondo il secondo principio della termodinamica",
+    "La fotosintesi è il processo attraverso cui le piante convertono la luce solare in energia chimica",
+    "Gli elettroni sono particelle subatomiche con carica negativa che orbitano attorno al nucleo atomico",
+    "L'evoluzione per selezione naturale è il processo attraverso cui le specie si adattano al loro ambiente nel corso del tempo"
+  ],
+  "DYNAMIC_TECH_EXPLANATION": [
+    "Un transformer è un'architettura di rete neurale che utilizza meccanismi di attenzione per processare sequenze di dati in parallelo",
+    "L'intelligenza artificiale è la capacità di un sistema informatico di eseguire compiti che normalmente richiederebbero intelligenza umana",
+    "Un algoritmo di machine learning apprende patterns dai dati per fare previsioni o decisioni senza essere esplicitamente programmato",
+    "Una rete neurale profonda è composta da molteplici strati di neuroni artificiali che trasformano progressivamente i dati di input",
+    "Il meccanismo di attenzione permette a un modello di focalizzarsi sulle parti rilevanti dell'input quando genera l'output",
+    "La blockchain è una struttura dati distribuita che registra transazioni in modo sicuro e immutabile",
+    "Il cloud computing fornisce risorse informatiche on-demand attraverso internet",
+    "Un database è un sistema organizzato per memorizzare, gestire e recuperare informazioni in modo efficiente",
+    "La crittografia è la pratica di proteggere informazioni trasformandole in un formato illeggibile senza la chiave corretta",
+    "Un'API è un'interfaccia che permette a diversi software di comunicare e scambiare dati"
+  ],
+  "DYNAMIC_HISTORICAL_FACT": [
+    "La rivoluzione industriale del XVIII secolo ha trasformato radicalmente la società attraverso la meccanizzazione della produzione",
+    "La seconda guerra mondiale è stato il conflitto più devastante della storia umana, durato dal 1939 al 1945",
+    "Il Rinascimento è stato un periodo di rinnovamento culturale e artistico in Europa tra il XIV e il XVI secolo",
+    "La scoperta dell'America da parte di Colombo nel 1492 ha segnato l'inizio dell'era delle esplorazioni globali",
+    "La rivoluzione francese del 1789 ha portato alla caduta della monarchia e all'affermazione dei principi di libertà, uguaglianza e fraternità"
+  ],
+  "DYNAMIC_PHILOSOPHY": [
+    "L'esistenzialismo sostiene che l'esistenza precede l'essenza e che gli individui sono liberi di definire il proprio significato",
+    "Il razionalismo afferma che la ragione è la principale fonte di conoscenza, superiore all'esperienza sensoriale",
+    "L'empirismo sostiene che tutta la conoscenza deriva dall'esperienza sensoriale",
+    "L'utilitarismo è una teoria etica che considera moralmente giusta l'azione che massimizza la felicità generale",
+    "Il determinismo afferma che tutti gli eventi sono causati da eventi precedenti secondo leggi naturali"
+  ],
+  "DYNAMIC_REASONING": [
+    "Devo analizzare attentamente la richiesta per fornire una risposta precisa e completa",
+    "Consideriamo prima i concetti fondamentali necessari per comprendere questo argomento",
+    "È importante distinguere tra correlazione e causalità quando si analizzano i dati",
+    "Procediamo con un approccio sistematico, esaminando ogni aspetto in sequenza",
+    "Valuto le diverse prospettive per offrire una visione equilibrata della questione"
+  ],
+  "DYNAMIC_GREETING": [
+    "Ciao, come posso aiutarti oggi",
+    "Salve, sono qui per rispondere alle tue domande",
+    "Benvenuto, cosa posso fare per te",
+    "Buongiorno, in cosa posso esserti utile"
+  ]
+}

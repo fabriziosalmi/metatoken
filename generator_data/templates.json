@@ -1,0 +1,173 @@
+[
+  {
+    "nome": "domanda_scientifica_con_ragionamento",
+    "struttura": [
+      ["UTENTE", "VERBO_AZIONE"],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "CONCETTO_SCIENTIFICO"],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RAGIONAMENTO", "DYNAMIC_REASONING"],
+      ["BOT_RAGIONAMENTO", "PUNCT"],
+      ["BOT_RISPOSTA", "AFFERMAZIONE"],
+      ["BOT_RISPOSTA", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_SCIENTIFIC_FACT"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "domanda_tecnologica_semplice",
+    "struttura": [
+      ["UTENTE", ["Cosa sono", "Cos'è", "Come funzionano", "Come funziona"]],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "CONCETTO_TECNOLOGICO"],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_TECH_EXPLANATION"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "domanda_aperta_filosofica",
+    "struttura": [
+      ["UTENTE", "DOMANDA_INIZIALE"],
+      ["UTENTE", "VERBO_ESSERE"],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "SOSTANTIVO_ASTRATTO"],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RAGIONAMENTO", ["Questa è una domanda complessa che richiede un'analisi approfondita", "Devo considerare diverse prospettive filosofiche"]],
+      ["BOT_RAGIONAMENTO", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_PHILOSOPHY"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "richiesta_spiegazione_con_esempio",
+    "struttura": [
+      ["UTENTE", "VERBO_AZIONE"],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "CONCETTO_SCIENTIFICO"],
+      ["UTENTE", ["con un esempio", "in modo semplice", "dettagliatamente"]],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RAGIONAMENTO", ["Analizzerò il concetto passo per passo", "Fornirò una spiegazione chiara con esempi pratici"]],
+      ["BOT_RAGIONAMENTO", "PUNCT"],
+      ["BOT_RISPOSTA", "AFFERMAZIONE"],
+      ["BOT_RISPOSTA", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_SCIENTIFIC_FACT"],
+      ["BOT_RISPOSTA", "PUNCT"],
+      ["BOT_RISPOSTA", ["Per esempio", "Ad esempio", "Un caso concreto è"]],
+      ["BOT_RISPOSTA", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_SCIENTIFIC_FACT"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "conversazione_matematica",
+    "struttura": [
+      ["UTENTE", ["Come si calcola", "Qual è il significato di", "Spiega"]],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "CONCETTO_MATEMATICO"],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RAGIONAMENTO", ["Questo riguarda un concetto matematico fondamentale", "Procederò con una spiegazione formale"]],
+      ["BOT_RAGIONAMENTO", "PUNCT"],
+      ["BOT_RISPOSTA", "ARTICOLO"],
+      ["BOT_RISPOSTA", "CONCETTO_MATEMATICO"],
+      ["BOT_RISPOSTA", "VERBO_ESSERE"],
+      ["BOT_RISPOSTA", "ARTICOLO"],
+      ["BOT_RISPOSTA", "SOSTANTIVO_ASTRATTO"],
+      ["BOT_RISPOSTA", "AGGETTIVO"],
+      ["BOT_RISPOSTA", "PREPOSIZIONE"],
+      ["BOT_RISPOSTA", "ARTICOLO"],
+      ["BOT_RISPOSTA", "SOSTANTIVO_ASTRATTO"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "domanda_comparativa",
+    "struttura": [
+      ["UTENTE", ["Qual è la differenza tra", "Come si confrontano", "Quali sono le differenze tra"]],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "CONCETTO_SCIENTIFICO"],
+      ["UTENTE", "CONGIUNZIONE"],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "CONCETTO_SCIENTIFICO"],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RAGIONAMENTO", ["Devo analizzare entrambi i concetti per evidenziare le differenze chiave", "Confronterò sistematicamente questi due concetti"]],
+      ["BOT_RAGIONAMENTO", "PUNCT"],
+      ["BOT_RISPOSTA", ["Le principali differenze sono", "I due concetti differiscono principalmente per"]],
+      ["BOT_RISPOSTA", "PUNCT"],
+      ["BOT_RISPOSTA", "ARTICOLO"],
+      ["BOT_RISPOSTA", "CONCETTO_SCIENTIFICO"],
+      ["BOT_RISPOSTA", "VERBO_ESSERE"],
+      ["BOT_RISPOSTA", "AGGETTIVO"],
+      ["BOT_RISPOSTA", "CONGIUNZIONE"],
+      ["BOT_RISPOSTA", "ARTICOLO"],
+      ["BOT_RISPOSTA", "CONCETTO_SCIENTIFICO"],
+      ["BOT_RISPOSTA", "VERBO_ESSERE"],
+      ["BOT_RISPOSTA", "AGGETTIVO"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "chiarimento_con_domanda",
+    "struttura": [
+      ["UTENTE", "VERBO_AZIONE"],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "CONCETTO_TECNOLOGICO"],
+      ["UTENTE", "PUNCT"],
+      ["BOT_CHIARIMENTO", ["Vuoi che ti spieghi", "Preferisci una spiegazione", "Intendi"]],
+      ["BOT_CHIARIMENTO", "ARTICOLO"],
+      ["BOT_CHIARIMENTO", ["funzionamento tecnico", "aspetti pratici", "teoria di base"]],
+      ["BOT_CHIARIMENTO", "PUNCT"],
+      ["UTENTE", ["Sì", "Certo", "Esatto"]],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RISPOSTA", "AFFERMAZIONE"],
+      ["BOT_RISPOSTA", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_TECH_EXPLANATION"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "saluto_con_disponibilita",
+    "struttura": [
+      ["UTENTE", ["Ciao", "Salve", "Buongiorno"]],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_GREETING"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "domanda_temporale",
+    "struttura": [
+      ["UTENTE", ["Quando è avvenuto", "In che anno", "In quale periodo"]],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", ["rivoluzione industriale", "scoperta della relatività", "nascita di internet"]],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RAGIONAMENTO", ["Devo fornire un contesto storico accurato", "È importante collocare l'evento nel giusto periodo"]],
+      ["BOT_RAGIONAMENTO", "PUNCT"],
+      ["BOT_RISPOSTA", "DYNAMIC_HISTORICAL_FACT"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  },
+  {
+    "nome": "richiesta_valutazione",
+    "struttura": [
+      ["UTENTE", ["È corretto affermare che", "Secondo te", "Pensi che"]],
+      ["UTENTE", "ARTICOLO"],
+      ["UTENTE", "SOSTANTIVO_ASTRATTO"],
+      ["UTENTE", "VERBO_ESSERE"],
+      ["UTENTE", "AGGETTIVO"],
+      ["UTENTE", "PUNCT"],
+      ["BOT_RAGIONAMENTO", ["Devo valutare questa affermazione basandomi su evidenze", "Analizzerò la validità di questa proposizione"]],
+      ["BOT_RAGIONAMENTO", "PUNCT"],
+      ["BOT_RISPOSTA", ["In generale", "Dipende da", "Secondo le evidenze disponibili"]],
+      ["BOT_RISPOSTA", "PUNCT"],
+      ["BOT_RISPOSTA", "ARTICOLO"],
+      ["BOT_RISPOSTA", "SOSTANTIVO_ASTRATTO"],
+      ["BOT_RISPOSTA", "VERBO_ESSERE"],
+      ["BOT_RISPOSTA", "AGGETTIVO"],
+      ["BOT_RISPOSTA", "PREPOSIZIONE"],
+      ["BOT_RISPOSTA", "ARTICOLO"],
+      ["BOT_RISPOSTA", "SOSTANTIVO_ASTRATTO"],
+      ["BOT_RISPOSTA", "PUNCT"]
+    ]
+  }
+]
