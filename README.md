@@ -112,7 +112,7 @@ La nostra classe custom `MetaModel` orchestra l'interazione tra il modello base 
 > |---|---|---|
 > | Certamente | BOT_RISPOSTA | AFFERMAZIONE |
 > | . | BOT_RISPOSTA | PUNCT |
-| Analizzo | BOT_RAGIONAMENTO| ANALISI_RICHIESTA|
+> | Analizzo | BOT_RAGIONAMENTO| ANALISI_RICHIESTA|
 > | la | BOT_RAGIONAMENTO | ARTICOLO |
 > | richiesta | BOT_RAGIONAMENTO | SOSTANTIVO_ASTRATTO|
 > | . | BOT_RAGIONAMENTO | PUNCT |
