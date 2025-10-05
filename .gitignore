@@ -1,4 +1,8 @@
 venv/
 model_*
 dataset.json
-generator_data/
+generator_data/*.json
+!generator_data/vocabs.json
+!generator_data/rich_content.json
+!generator_data/templates.json
+!generator_data/semantic_map.json
